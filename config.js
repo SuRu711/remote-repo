@@ -12,7 +12,7 @@ const config = {
       reSign: true, //是否重新签到
       location: '23.216222, 113.296250', //经纬度 (可选),例如 "120.210792,30.246026"、"经度,纬度",不填写则自动获取（推荐）
       // signImagePath: "./images/1.jpeg", //签到图片
-      // needReport: false, //是否自动填写周报
+      needReport: true, //是否自动填写周报
     },
     // 添加多个账户
     // {
